@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cricket-gully</title>
+    <style>
+        body{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Best cricket game</h1>
+    <button onclick="
+        let a=Math.random() * 3;
+        if(a>=0 && a<1){
+            console.log('it was a tie');
+        }
+        else if(a>=1 && a<2){
+            console.log('u won the game');
+        }
+        else{
+            console.log('u lost the game');
+        }
+    ">bat</button>
+    <button onclick="
+        a=Math.random() * 3;
+        if(a>=1 && a<2){
+            console.log('it was a tie');
+        }
+        else if(a>=2 && a<3){
+            console.log('u won the game');
+        }
+        else{
+            console.log('u lost the game');
+        }
+    ">bowl</button>
+    <button onclick="
+        a=Math.random() * 3;
+        if(a>=2 && a<3){
+            console.log('it was a tie');
+        }
+        else if(a>=0 && a<1){
+            console.log('u won the game');
+        }
+        else{
+            console.log('u lost the game');
+        }
+    ">wicket</button>
+</body>
+</html>
